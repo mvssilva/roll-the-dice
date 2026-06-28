@@ -1,6 +1,6 @@
 # Roll The Dice
 
-Este projeto foi desenvolvido como parte de um desafio técnico full-stack. A aplicação permite que o usuário selecione modelos clássicos de dados (D4, D6, D8, D10, D12, D20, D100), solicite uma rolagem ao servidor e visualize o resultado, além de manter um histórico completo das jogadas.
+Este projeto foi desenvolvido como parte de um desafio técnico full-stack. A aplicação permite que o usuário selecione modelos clássicos de dados (D4, D6, D8, D10, D12, D20, D100), solicite uma rolagem ao servidor e visualize o resultado, além de manter um histórico das jogadas anteriores.
 
 ## Tecnologias Utilizadas
 
@@ -87,7 +87,7 @@ A aplicação abrirá no seu navegador, geralmente na porta 5173 (http://localho
 
 1. Na interface principal, clique sobre o dado desejado (D4, D6, D8, D10, D12, D20 ou D100).
 
-2. Clique no botão "Rolar Dado".
+2. Clique no botão "Jogar Dado".
 
 3. O front-end enviará a requisição para a API, que validará o modelo, sorteará o número e salvará no banco de dados.
 
@@ -100,6 +100,4 @@ A aplicação abrirá no seu navegador, geralmente na porta 5173 (http://localho
 ![Tela Principal do Roll The Dice](./interface/image1.png)
 ![Tela Principal do Roll The Dice](./interface/image2.png)
 
-## Autor
-
-Desenvolvido por Marcos Vinícius.
+## Desenvolvido por Marcos Vinícius.
